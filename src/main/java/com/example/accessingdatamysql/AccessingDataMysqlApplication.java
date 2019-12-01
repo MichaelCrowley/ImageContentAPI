@@ -1,13 +1,13 @@
-package com.example.accessingdatamongodb;
+package com.example.accessingdatamysql;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AccessingDataMongodbApplication {
+public class AccessingDataMysqlApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AccessingDataMongodbApplication.class, args);
+		SpringApplication.run(AccessingDataMysqlApplication.class, args);
 	}
 
 }
